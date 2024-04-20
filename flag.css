@@ -1,0 +1,29 @@
+
+.one {
+    background-color: orange;
+    height: 200px;
+    width: 800px;
+}
+
+.two {
+    background-color: white;
+    height: 200px;
+    width: 800px;
+    
+}
+
+.three {
+    background-color: green;
+    height: 200px;
+    width: 800px;
+}
+.main{
+    margin-left: 20%;
+    border-style: solid;
+    width: 800px;
+}
+img{
+    height: 200px; 
+     margin-left: 
+     35%;
+}
