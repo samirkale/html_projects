@@ -1,19 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>my project</title>
-    </head>
-    <body>
-       <a href="./flage2.html">indian flag</a>
-       <br>
-    <a href="./flage1.html">flag one</a>
-    <br>
-    <a href="./practice2.html">practice2</a>
-<br>
-    <a href="project.html">project</a>
-    <br>
-    <a href="third.html">third</a>
-    <br>
-    <a href="fifth.html">fifth</a>
-    </body>
+
+<head>
+    <title>Table</title>
+    <style>
+        .first-row {
+            background-color: aqua;
+            text-align: center;
+            height: 10vh;
+            width: 600vw;
+            font-size: 32px;
+           
+        }
+
+        .sec-row {
+            background-color: aqua;
+            width: 600vw;
+            height: 100vh;
+            
+        }
+
+        .third-row {
+            background-color:sandybrown;
+            width: 600vw;
+            height: 100vh;
+
+        }
+
+        .fourth-row {
+            background-color: blue;
+            width: 600vw;
+            height: 100vh;
+
+        }
+
+        .fifth-row {
+            background-color: brown;
+            width: 600vw;
+            height: 100vh;
+
+        }
+
+        .six-row {
+            background-color:black;
+            text-align: center;
+            height: 10vh;
+            width: 600vw;
+            font-size: 32px;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr class="first-row">
+            <!-- first row -->
+            <td><a href="#sec-row">About</a></td>
+            <td><a href="#third-row">Project</a></td>
+            <td><a href="fourth-row">Education</a></td>
+            <td><a href="fifth-row">Link </a></td>
+        </tr>
+        <!-- secound row -->
+        <tr>
+            <td class="s" colspan="4" id="sec-row"></td>
+
+        </tr>
+        <!-- third row -->
+        <tr>
+            <td class="third-row" colspan="4" id="third-row"></td>
+        </tr>
+        <!-- fourth row -->
+        <tr>
+            <td class="fourth-row" colspan="4" id="fourth-row"></td>
+        </tr>
+        <!-- fifth row -->
+        <tr>
+            <td class="fifth-row" colspan="4" id="fifth-row"></td>
+        </tr>
+        <!-- six row -->
+        <tr class="six-row">
+            <td>SKYPE ID</td>
+            <td>EMAIL</td>
+            <td>GITHUB LINK</td>
+            <td>STACK OVERFLOW</td>
+        </tr>
+
+
+    </table>
+
+</body>
+
 </html>
